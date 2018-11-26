@@ -11,15 +11,21 @@
 		41286EBB21ABAD240093B50F /* MDMAPIMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 41286EBA21ABAD240093B50F /* MDMAPIMemoryCache.m */; };
 		41286EBE21ABAD770093B50F /* MDMAPIDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 41286EBD21ABAD770093B50F /* MDMAPIDiskCache.m */; };
 		41286EC121ABADC60093B50F /* MDMAPICacheObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 41286EC021ABADC60093B50F /* MDMAPICacheObject.m */; };
+		4163404F21AC1A53006A4144 /* MDMAPIFormDataNormalItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163404E21AC1A53006A4144 /* MDMAPIFormDataNormalItem.m */; };
+		4163405221AC1A86006A4144 /* MDMAPIFormDataFileItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163405121AC1A86006A4144 /* MDMAPIFormDataFileItem.m */; };
+		4163405521AC1AE4006A4144 /* MDMAPIRequestGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4163405421AC1AE4006A4144 /* MDMAPIRequestGenerator.m */; };
+		419C5B2521AC19A1001ED293 /* MDMAPIFormData.m in Sources */ = {isa = PBXBuildFile; fileRef = 419C5B2421AC19A1001ED293 /* MDMAPIFormData.m */; };
 		41CB94C621A98F1800507923 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CB94C521A98F1800507923 /* AppDelegate.m */; };
 		41CB94C921A98F1800507923 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CB94C821A98F1800507923 /* ViewController.m */; };
 		41CB94CC21A98F1800507923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CB94CA21A98F1800507923 /* Main.storyboard */; };
 		41CB94CE21A98F1900507923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41CB94CD21A98F1900507923 /* Assets.xcassets */; };
 		41CB94D121A98F1900507923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CB94CF21A98F1900507923 /* LaunchScreen.storyboard */; };
 		41CB94D421A98F1900507923 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CB94D321A98F1900507923 /* main.m */; };
+		7D13387879A046F7A5EB1264 /* libPods-MDMAPIManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2642EF58A42706D8BF653A4D /* libPods-MDMAPIManager.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2642EF58A42706D8BF653A4D /* libPods-MDMAPIManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MDMAPIManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41286EAD21ABABC80093B50F /* MDMAPIManagerDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMAPIManagerDefines.h; sourceTree = "<group>"; };
 		41286EB621ABACF10093B50F /* MDMAPICache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMAPICache.h; sourceTree = "<group>"; };
 		41286EB721ABACF10093B50F /* MDMAPICache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMAPICache.m; sourceTree = "<group>"; };
@@ -29,6 +35,14 @@
 		41286EBD21ABAD770093B50F /* MDMAPIDiskCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMAPIDiskCache.m; sourceTree = "<group>"; };
 		41286EBF21ABADC60093B50F /* MDMAPICacheObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMAPICacheObject.h; sourceTree = "<group>"; };
 		41286EC021ABADC60093B50F /* MDMAPICacheObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMAPICacheObject.m; sourceTree = "<group>"; };
+		4163404D21AC1A53006A4144 /* MDMAPIFormDataNormalItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMAPIFormDataNormalItem.h; sourceTree = "<group>"; };
+		4163404E21AC1A53006A4144 /* MDMAPIFormDataNormalItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMAPIFormDataNormalItem.m; sourceTree = "<group>"; };
+		4163405021AC1A86006A4144 /* MDMAPIFormDataFileItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMAPIFormDataFileItem.h; sourceTree = "<group>"; };
+		4163405121AC1A86006A4144 /* MDMAPIFormDataFileItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMAPIFormDataFileItem.m; sourceTree = "<group>"; };
+		4163405321AC1AE4006A4144 /* MDMAPIRequestGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMAPIRequestGenerator.h; sourceTree = "<group>"; };
+		4163405421AC1AE4006A4144 /* MDMAPIRequestGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMAPIRequestGenerator.m; sourceTree = "<group>"; };
+		419C5B2321AC19A1001ED293 /* MDMAPIFormData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMAPIFormData.h; sourceTree = "<group>"; };
+		419C5B2421AC19A1001ED293 /* MDMAPIFormData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMAPIFormData.m; sourceTree = "<group>"; };
 		41CB94C121A98F1800507923 /* MDMAPIManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDMAPIManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41CB94C421A98F1800507923 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41CB94C521A98F1800507923 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -39,6 +53,8 @@
 		41CB94D021A98F1900507923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41CB94D221A98F1900507923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41CB94D321A98F1900507923 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9458E6C6918E1AA90D82917C /* Pods-MDMAPIManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDMAPIManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDMAPIManager/Pods-MDMAPIManager.release.xcconfig"; sourceTree = "<group>"; };
+		E4F9C828E47DE752B34CDF43 /* Pods-MDMAPIManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDMAPIManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDMAPIManager/Pods-MDMAPIManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D13387879A046F7A5EB1264 /* libPods-MDMAPIManager.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +123,8 @@
 		41286EB321ABAC790093B50F /* MDMAPIRequestGenerator */ = {
 			isa = PBXGroup;
 			children = (
+				4163405321AC1AE4006A4144 /* MDMAPIRequestGenerator.h */,
+				4163405421AC1AE4006A4144 /* MDMAPIRequestGenerator.m */,
 			);
 			path = MDMAPIRequestGenerator;
 			sourceTree = "<group>";
@@ -113,6 +132,12 @@
 		41286EB421ABAC880093B50F /* MDMAPIFormData */ = {
 			isa = PBXGroup;
 			children = (
+				419C5B2321AC19A1001ED293 /* MDMAPIFormData.h */,
+				419C5B2421AC19A1001ED293 /* MDMAPIFormData.m */,
+				4163404D21AC1A53006A4144 /* MDMAPIFormDataNormalItem.h */,
+				4163404E21AC1A53006A4144 /* MDMAPIFormDataNormalItem.m */,
+				4163405021AC1A86006A4144 /* MDMAPIFormDataFileItem.h */,
+				4163405121AC1A86006A4144 /* MDMAPIFormDataFileItem.m */,
 			);
 			path = MDMAPIFormData;
 			sourceTree = "<group>";
@@ -138,6 +163,8 @@
 				41286EAC21ABABA30093B50F /* MDMAPIManager */,
 				41CB94C321A98F1800507923 /* Example */,
 				41CB94C221A98F1800507923 /* Products */,
+				B53185D4FC9ED0A09F76BD96 /* Pods */,
+				4CFD7D99EEA7A9A4CBFF5E5B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,6 +192,23 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
+		4CFD7D99EEA7A9A4CBFF5E5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2642EF58A42706D8BF653A4D /* libPods-MDMAPIManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B53185D4FC9ED0A09F76BD96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4F9C828E47DE752B34CDF43 /* Pods-MDMAPIManager.debug.xcconfig */,
+				9458E6C6918E1AA90D82917C /* Pods-MDMAPIManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -172,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41CB94D721A98F1900507923 /* Build configuration list for PBXNativeTarget "MDMAPIManager" */;
 			buildPhases = (
+				ADF11D26BD739D18F034D27A /* [CP] Check Pods Manifest.lock */,
 				41CB94BD21A98F1800507923 /* Sources */,
 				41CB94BE21A98F1800507923 /* Frameworks */,
 				41CB94BF21A98F1800507923 /* Resources */,
@@ -230,15 +275,40 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ADF11D26BD739D18F034D27A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MDMAPIManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		41CB94BD21A98F1800507923 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				41286EBB21ABAD240093B50F /* MDMAPIMemoryCache.m in Sources */,
+				419C5B2521AC19A1001ED293 /* MDMAPIFormData.m in Sources */,
+				4163404F21AC1A53006A4144 /* MDMAPIFormDataNormalItem.m in Sources */,
 				41286EB821ABACF10093B50F /* MDMAPICache.m in Sources */,
 				41CB94C921A98F1800507923 /* ViewController.m in Sources */,
+				4163405521AC1AE4006A4144 /* MDMAPIRequestGenerator.m in Sources */,
 				41286EBE21ABAD770093B50F /* MDMAPIDiskCache.m in Sources */,
+				4163405221AC1A86006A4144 /* MDMAPIFormDataFileItem.m in Sources */,
 				41286EC121ABADC60093B50F /* MDMAPICacheObject.m in Sources */,
 				41CB94D421A98F1900507923 /* main.m in Sources */,
 				41CB94C621A98F1800507923 /* AppDelegate.m in Sources */,
@@ -381,6 +451,7 @@
 		};
 		41CB94D821A98F1900507923 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F9C828E47DE752B34CDF43 /* Pods-MDMAPIManager.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +469,7 @@
 		};
 		41CB94D921A98F1900507923 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9458E6C6918E1AA90D82917C /* Pods-MDMAPIManager.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

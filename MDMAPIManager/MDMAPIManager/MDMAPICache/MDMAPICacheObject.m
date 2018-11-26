@@ -40,7 +40,7 @@
         [aCoder encodeObject:self.lastUpdateDate forKey:@"date"];
         [aCoder encodeObject:@(self.cacheTime) forKey:@"cacheTime"];
     } @catch (NSException *exception) {
-        NSLog(@"YBQAPICacheObject encode error");
+        NSLog(@"MDMAPICacheObject encode error");
     }
 }
 
