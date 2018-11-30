@@ -21,6 +21,12 @@
 		41CB94CE21A98F1900507923 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41CB94CD21A98F1900507923 /* Assets.xcassets */; };
 		41CB94D121A98F1900507923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41CB94CF21A98F1900507923 /* LaunchScreen.storyboard */; };
 		41CB94D421A98F1900507923 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CB94D321A98F1900507923 /* main.m */; };
+		41CF2B9B21B1577E00F5635D /* MDMAPIRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CF2B9A21B1577E00F5635D /* MDMAPIRequestManager.m */; };
+		41CF2B9F21B1592300F5635D /* MDMAPIResponsePluginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CF2B9E21B1592300F5635D /* MDMAPIResponsePluginManager.m */; };
+		41CF2BA321B15A1D00F5635D /* MDMAPIRequestPluginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CF2BA221B15A1D00F5635D /* MDMAPIRequestPluginManager.m */; };
+		41CF2BA621B15A6500F5635D /* MDMAPIPluginHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CF2BA521B15A6500F5635D /* MDMAPIPluginHandle.m */; };
+		41CF2BA921B15AB800F5635D /* MDMAPIPluginModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CF2BA821B15AB800F5635D /* MDMAPIPluginModel.m */; };
+		41CF2BAE21B15B5000F5635D /* MDMAPIBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 41CF2BAD21B15B5000F5635D /* MDMAPIBaseManager.m */; };
 		7D13387879A046F7A5EB1264 /* libPods-MDMAPIManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2642EF58A42706D8BF653A4D /* libPods-MDMAPIManager.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +59,22 @@
 		41CB94D021A98F1900507923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41CB94D221A98F1900507923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41CB94D321A98F1900507923 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41CF2B9921B1577E00F5635D /* MDMAPIRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMAPIRequestManager.h; sourceTree = "<group>"; };
+		41CF2B9A21B1577E00F5635D /* MDMAPIRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMAPIRequestManager.m; sourceTree = "<group>"; };
+		41CF2B9C21B1585500F5635D /* MDMAPIResponseReformProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMAPIResponseReformProtocol.h; sourceTree = "<group>"; };
+		41CF2B9D21B1592300F5635D /* MDMAPIResponsePluginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMAPIResponsePluginManager.h; sourceTree = "<group>"; };
+		41CF2B9E21B1592300F5635D /* MDMAPIResponsePluginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMAPIResponsePluginManager.m; sourceTree = "<group>"; };
+		41CF2BA021B159F700F5635D /* MDMAPIRequestReformProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMAPIRequestReformProtocol.h; sourceTree = "<group>"; };
+		41CF2BA121B15A1D00F5635D /* MDMAPIRequestPluginManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMAPIRequestPluginManager.h; sourceTree = "<group>"; };
+		41CF2BA221B15A1D00F5635D /* MDMAPIRequestPluginManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMAPIRequestPluginManager.m; sourceTree = "<group>"; };
+		41CF2BA421B15A6500F5635D /* MDMAPIPluginHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMAPIPluginHandle.h; sourceTree = "<group>"; };
+		41CF2BA521B15A6500F5635D /* MDMAPIPluginHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMAPIPluginHandle.m; sourceTree = "<group>"; };
+		41CF2BA721B15AB800F5635D /* MDMAPIPluginModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMAPIPluginModel.h; sourceTree = "<group>"; };
+		41CF2BA821B15AB800F5635D /* MDMAPIPluginModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMAPIPluginModel.m; sourceTree = "<group>"; };
+		41CF2BAA21B15AF900F5635D /* MDMAPIManagerCallBackDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMAPIManagerCallBackDelegate.h; sourceTree = "<group>"; };
+		41CF2BAB21B15B2300F5635D /* MDMAPIManagerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMAPIManagerProtocol.h; sourceTree = "<group>"; };
+		41CF2BAC21B15B5000F5635D /* MDMAPIBaseManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MDMAPIBaseManager.h; sourceTree = "<group>"; };
+		41CF2BAD21B15B5000F5635D /* MDMAPIBaseManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MDMAPIBaseManager.m; sourceTree = "<group>"; };
 		9458E6C6918E1AA90D82917C /* Pods-MDMAPIManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDMAPIManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDMAPIManager/Pods-MDMAPIManager.release.xcconfig"; sourceTree = "<group>"; };
 		E4F9C828E47DE752B34CDF43 /* Pods-MDMAPIManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDMAPIManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDMAPIManager/Pods-MDMAPIManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +110,10 @@
 		41286EAE21ABAC070093B50F /* MDMAPIBaseManager */ = {
 			isa = PBXGroup;
 			children = (
+				41CF2BAA21B15AF900F5635D /* MDMAPIManagerCallBackDelegate.h */,
+				41CF2BAB21B15B2300F5635D /* MDMAPIManagerProtocol.h */,
+				41CF2BAC21B15B5000F5635D /* MDMAPIBaseManager.h */,
+				41CF2BAD21B15B5000F5635D /* MDMAPIBaseManager.m */,
 			);
 			path = MDMAPIBaseManager;
 			sourceTree = "<group>";
@@ -95,6 +121,10 @@
 		41286EAF21ABAC1D0093B50F /* MDMAPIPluginHandle */ = {
 			isa = PBXGroup;
 			children = (
+				41CF2BA421B15A6500F5635D /* MDMAPIPluginHandle.h */,
+				41CF2BA521B15A6500F5635D /* MDMAPIPluginHandle.m */,
+				41CF2BA721B15AB800F5635D /* MDMAPIPluginModel.h */,
+				41CF2BA821B15AB800F5635D /* MDMAPIPluginModel.m */,
 			);
 			path = MDMAPIPluginHandle;
 			sourceTree = "<group>";
@@ -102,6 +132,9 @@
 		41286EB021ABAC2A0093B50F /* MDMAPIRequestPlugin */ = {
 			isa = PBXGroup;
 			children = (
+				41CF2BA021B159F700F5635D /* MDMAPIRequestReformProtocol.h */,
+				41CF2BA121B15A1D00F5635D /* MDMAPIRequestPluginManager.h */,
+				41CF2BA221B15A1D00F5635D /* MDMAPIRequestPluginManager.m */,
 			);
 			path = MDMAPIRequestPlugin;
 			sourceTree = "<group>";
@@ -109,6 +142,9 @@
 		41286EB121ABAC550093B50F /* MDMAPIResponsePlugin */ = {
 			isa = PBXGroup;
 			children = (
+				41CF2B9C21B1585500F5635D /* MDMAPIResponseReformProtocol.h */,
+				41CF2B9D21B1592300F5635D /* MDMAPIResponsePluginManager.h */,
+				41CF2B9E21B1592300F5635D /* MDMAPIResponsePluginManager.m */,
 			);
 			path = MDMAPIResponsePlugin;
 			sourceTree = "<group>";
@@ -116,6 +152,8 @@
 		41286EB221ABAC660093B50F /* MDMAPIRequestManager */ = {
 			isa = PBXGroup;
 			children = (
+				41CF2B9921B1577E00F5635D /* MDMAPIRequestManager.h */,
+				41CF2B9A21B1577E00F5635D /* MDMAPIRequestManager.m */,
 			);
 			path = MDMAPIRequestManager;
 			sourceTree = "<group>";
@@ -305,13 +343,19 @@
 				419C5B2521AC19A1001ED293 /* MDMAPIFormData.m in Sources */,
 				4163404F21AC1A53006A4144 /* MDMAPIFormDataNormalItem.m in Sources */,
 				41286EB821ABACF10093B50F /* MDMAPICache.m in Sources */,
+				41CF2B9F21B1592300F5635D /* MDMAPIResponsePluginManager.m in Sources */,
 				41CB94C921A98F1800507923 /* ViewController.m in Sources */,
+				41CF2BA921B15AB800F5635D /* MDMAPIPluginModel.m in Sources */,
+				41CF2B9B21B1577E00F5635D /* MDMAPIRequestManager.m in Sources */,
+				41CF2BA621B15A6500F5635D /* MDMAPIPluginHandle.m in Sources */,
 				4163405521AC1AE4006A4144 /* MDMAPIRequestGenerator.m in Sources */,
+				41CF2BA321B15A1D00F5635D /* MDMAPIRequestPluginManager.m in Sources */,
 				41286EBE21ABAD770093B50F /* MDMAPIDiskCache.m in Sources */,
 				4163405221AC1A86006A4144 /* MDMAPIFormDataFileItem.m in Sources */,
 				41286EC121ABADC60093B50F /* MDMAPICacheObject.m in Sources */,
 				41CB94D421A98F1900507923 /* main.m in Sources */,
 				41CB94C621A98F1800507923 /* AppDelegate.m in Sources */,
+				41CF2BAE21B15B5000F5635D /* MDMAPIBaseManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
